@@ -1,0 +1,12 @@
+avrdude> config
+config sut_cksel=intrcosc_8mhz_14ck_65ms # 36
+config ckout=co_disabled # 1
+config ckdiv8=by_8 # 0
+config rstdisbl=external_reset # 1
+config bodlevel=bod_disabled # 7
+config wdton=wdt_programmable # 1
+config spien=isp_enabled # 0
+config eesave=ee_erased # 1
+config dwen=dw_off # 1
+config selfprgen=spm_disabled # 1
+config lb=no_lock # 3
